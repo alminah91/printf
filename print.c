@@ -39,7 +39,7 @@ int _printf(const char *format, ...)
         else if (format[i + 1] == 'i' || format[i + 1] == 'd')
         {
             int num = va_arg(args, int);
-            _putchar("%d", num);
+            printInteger("%d", num);
             i++;
         }
         j++;
