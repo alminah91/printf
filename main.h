@@ -7,6 +7,7 @@
 int _putchar(char c);
 void printInteger(int num);
 int _printf(const char *format, ...);
+int puts(char *c);
 
 
 #endif
